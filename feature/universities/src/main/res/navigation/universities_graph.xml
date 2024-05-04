@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/universitiesFragment">
+
+    <fragment
+        android:id="@+id/universitiesFragment"
+        android:name="com.invade.universities.presentation.ui.UniversitiesFragment"
+        android:label="fragment_universities"
+        tools:layout="@layout/fragment_universities" />
+</navigation>
